@@ -1,0 +1,214 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.i {
+    color: #ecddd9;
+    font-size: 18px !important;
+}
+
+a {
+    color: black;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 900;
+}
+
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+
+.btn {
+    border-radius: 0% !important;
+    box-shadow: none !important;
+}
+
+.btn-primary {
+    background-color: black !important;
+    border-color: black !important;
+}
+
+.btn-primary:hover {
+    background-color: transparent !important;
+    color: black !important;
+}
+
+.btn-outline-secondary {
+    color: white !important;
+    border-color: #ecddd9 !important;
+}
+
+.btn-outline-secondary:hover {
+    color: black !important;
+    background-color: white !important;
+}
+
+.btn-circle.btn-md {
+    padding: auto;
+    border-radius: 25px !important;
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.btn-circle.btn-md:hover {
+    border: 2px solid green;
+}
+
+/**************
+    Navbar
+**************/
+.navbar {
+    opacity: 1;
+    background-color: white;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+}
+
+.nav-link,
+.navbar-brand {
+    color: black !important;
+}
+
+.nav-hover:hover {
+    color: #777;
+    border-bottom: 1px solid black;
+}
+
+.navbar .btn-primary {
+    color: white;
+}
+
+.navbar .btn-primary:hover {
+    color: black;
+    background-color: transparent;
+}
+
+.i:hover {
+    color: black;
+}
+
+/***********
+main
+************/
+
+.main {
+    min-height: 60vh;
+}
+
+.main img {
+    width: 80%;
+    float: left;
+
+    overflow: hidden;
+}
+
+.main h2 {
+    font-weight: 800;
+}
+
+.main h3 {
+    font-weight: 700;
+}
+
+.main p {
+    font-weight: 400;
+}
+
+.main h6 {
+    font-weight: 300;
+}
+
+.main button {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.main button:hover {
+    background-color: lightgreen;
+    transition: 0.5s ease-in-out;
+}
+
+.main .similar-img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 17.5%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.5;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+
+/***********
+footer
+************/
+.footer {
+    background: black !important;
+    color: white !important;
+}
+
+.footer a {
+    color: white !important;
+}
+
+.footer .navbar-brand {
+    color: white !important;
+}
+
+.footer h4 {
+    margin-top: 10px;
+}
+
+.footer {
+    padding-bottom: 1rem;
+}
+
+@media (max-width: 700px) {
+    .submit {
+        margin-top: 2rem !important;
+        margin-left: 0px !important;
+    }
+
+    .btn-group-lg>.btn,
+    .btn-lg {
+        padding: 10px 12px !important;
+    }
+}

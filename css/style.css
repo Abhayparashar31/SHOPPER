@@ -1,0 +1,299 @@
+* {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.i {
+  color: #ecddd9;
+  font-size: 18px !important;
+}
+a {
+  color: black;
+}
+h1,
+h2,
+h3 {
+  font-weight: 900;
+}
+
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+.btn {
+  border-radius: 0% !important;
+  box-shadow: none !important;
+}
+
+.btn-primary {
+  background-color: black !important;
+  border-color: black !important;
+}
+
+.btn-primary:hover {
+  background-color: transparent !important;
+  color: black !important;
+}
+
+.btn-outline-secondary {
+  color: white !important;
+  border-color: #ecddd9 !important;
+}
+
+.btn-outline-secondary:hover {
+  color: black !important;
+  background-color: white !important;
+}
+
+/**************
+    Headings
+**************/
+.section-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-heading::first-letter {
+  color: #ecddd9;
+}
+
+/**************
+    Navbar
+**************/
+.navbar {
+  opacity: 1;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.nav-link,
+.navbar-brand {
+  color: black !important;
+}
+
+.nav-hover:hover {
+  color: #777;
+  border-bottom: 1px solid black;
+}
+
+.navbar .btn-primary {
+  color: white;
+}
+
+.navbar .btn-primary:hover {
+  color: black;
+  background-color: transparent;
+}
+
+.i:hover {
+  color: black;
+}
+
+/**************
+    Home
+**************/
+.home {
+  min-height: 80vh;
+  overflow: hidden;
+  background-image: url("../img/main-5.jpg");
+  background-position: bottom;
+  background-size: cover;
+}
+
+.card {
+  transition: 0.5s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 300px;
+}
+
+/************
+Callto action
+*************/
+.call-to-action {
+  background-color: black;
+  color: white;
+}
+
+/************
+Product Gallery
+*************/
+.price-tag {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: black;
+  padding: 20px;
+  color: white;
+}
+
+.price {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.rupee {
+  font-size: 1.2rem;
+}
+
+.gallery {
+  column-count: 4;
+  column-width: 33%;
+}
+
+.pics {
+  position: relative;
+  overflow: hidden;
+}
+
+.pics img {
+  transition: 0.3s ease-in;
+}
+
+.pics img:hover {
+  transform: scale(1.05);
+}
+
+/************
+testimonial
+*************/
+.testimonial-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.testimonial {
+  background-color: black;
+  color: white;
+}
+
+/***********
+Contact us
+************/
+form input,
+textarea {
+  border-bottom: 2px solid #777 !important;
+}
+
+.form-control {
+  border: 0 !important;
+  box-shadow: none !important;
+  border-bottom: 2px solid #777 !important;
+  border-radius: 0%;
+  background: white;
+}
+
+.form-control:focus {
+  box-shadow: black !important;
+  border-bottom: 2px solid green !important;
+  color: green;
+}
+
+/***********
+footer
+************/
+.footer {
+  background: black !important;
+  color: white !important;
+}
+
+.footer a {
+  color: white !important;
+}
+
+.footer .navbar-brand {
+  color: white !important;
+}
+
+.footer h4 {
+  margin-top: 10px;
+}
+
+.footer {
+  padding-bottom: 1rem;
+}
+
+/********
+Responsive
+********/
+@media (max-width: 700px) {
+  .navbar .nav-item {
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+  }
+
+  .navbar {
+    background-color: white !important;
+  }
+
+  .call-to-action,
+  .text-right {
+    text-align: center !important;
+  }
+
+  .gallery {
+    column-count: 1;
+    column-width: 80%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .navbar .nav-item {
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+  }
+
+  .home {
+    min-height: 80vh;
+    overflow: hidden;
+    background-image: url("../img/main-2.jpg");
+    background-position: bottom;
+    background-size: cover;
+  }
+
+  .cards {
+    margin-top: 10rem;
+    offset: 0px;
+  }
+
+  .navbar {
+    background-color: white !important;
+  }
+
+  .call-to-action,
+  .text-right {
+    text-align: center !important;
+  }
+
+  .gallery {
+    column-count: 2;
+    column-width: 50%;
+  }
+  .testimonial {
+    text-align: center;
+    align-items: center;
+  }
+  .testimonial-image {
+    position: relative;
+    right: 18rem;
+    margin-bottom: 2rem;
+  }
+}
