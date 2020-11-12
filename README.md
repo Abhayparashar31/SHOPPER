@@ -7,7 +7,7 @@
   <h3 align="center">SHOPPER</h3>
 
   <p align="center">
-    Shopping websited templates using bs4,css3,html5,js.Product filteration is also avalible...
+ Shopping website template made using bs4,css3,html5 and java script. In this Product filteration is also avalible with one product page.
     <br />
     <a href="https://github.com/Abhayparashar31/SHOPPER/"><strong>Explore the Project »</strong></a>
     <br />
